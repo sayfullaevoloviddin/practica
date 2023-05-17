@@ -1,0 +1,73 @@
+.card-c-1 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 355px;
+  border-radius: 8px;
+  width: 172px;
+  background-color: rgba(24,24,32,0.76) ;
+  color: grey;
+}
+.card-c-2{
+  display: inline-block;
+  margin-left: 55px;
+  border: 1px solid black;
+  height: 355px;
+  border-radius: 8px;
+  width: 172px;
+  background-color: rgba(24,24,32,0.76) ;
+  color: grey;
+}
+.card-c-3 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 355px;
+  border-radius: 8px;
+  width: 172px;
+  margin-left: 55px;
+  background-color: rgba(24,24,32,0.76) ;
+  color: grey;
+}
+.card-c-4 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 355px;
+  border-radius: 8px;
+  width: 172px;
+  margin-left: 55px;
+  background-color: rgba(24,24,32,0.76) ;
+  color: grey;
+}
+.card-c-5{
+  display: inline-block;
+  border: 1px solid black;
+  height: 355px;
+  border-radius: 8px;
+  width: 172px;
+  margin-left: 55px;
+  background-color: rgba(24,24,32,0.76);
+  color: grey;
+}
+@media(min-width: 240px) and (max-width: 570px){
+  .card-c-1{
+    display: block;
+  }
+}
+@media (min-width: 570px) and (max-width: 780px){
+  .card-c-2 {
+    display: block;
+  }
+}
+@media (min-width: 780px) and (max-width: 990px){
+  .card-c-3{
+    display: block;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  .card-c-4{
+
+  }
+}
+@media (min-width: 1200px){
+  .card-c-5{
+  }
+}

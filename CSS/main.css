@@ -1,0 +1,141 @@
+.txt{
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.txt:hover{
+    color: darkgrey;
+    text-decoration: none;
+}
+.txt:nth-child(1){
+    margin-left: 50px;
+}
+.search{
+    width: 100px;
+    margin-left: 40px;
+}
+.logo-item{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+.logo-item:hover{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url("../img/img_5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    background-color: rgba(45,45,49,0.59);
+}
+.card-c-1 {
+    display: inline-block;
+    border: 1px solid black;
+    height: 355px;
+    border-radius: 8px;
+    width: 172px;
+    background-color: rgba(24,24,32,0.76) ;
+    color: grey;
+}
+.card-c-1:hover{
+    /*box-shadow: 0 0 50px 1px limegreen;*/
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-name: alov;
+    animation-iteration-count: infinite;
+}
+.card-c-2{
+    display: inline-block;
+    margin-left: 55px;
+    border: 1px solid black;
+    height: 355px;
+    border-radius: 8px;
+    width: 172px;
+    background-color: rgba(24,24,32,0.76) ;
+    color: grey;
+}
+.card-c-2:hover{
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-name: alov;
+    animation-iteration-count: infinite;
+
+}
+.card-c-3 {
+    display: inline-block;
+    border: 1px solid black;
+    height: 355px;
+    border-radius: 8px;
+    width: 172px;
+    margin-left: 55px;
+    background-color: rgba(24,24,32,0.76) ;
+    color: grey;
+}
+.card-c-3:hover{
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-name: alov;
+    animation-iteration-count: infinite;
+}
+.card-c-4 {
+    display: inline-block;
+    border: 1px solid black;
+    height: 355px;
+    border-radius: 8px;
+    width: 172px;
+    margin-left: 55px;
+    background-color: rgba(24,24,32,0.76) ;
+    color: grey;
+
+}
+.card-c-4:hover{
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-name: alov;
+    animation-iteration-count: infinite;
+}
+.card-c-5{
+    display: inline-block;
+    border: 1px solid black;
+    height: 355px;
+    border-radius: 8px;
+    width: 172px;
+    margin-left: 55px;
+    background-color: rgba(24,24,32,0.76);
+    color: grey;
+}
+.card-c-5:hover{
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-name: alov;
+    animation-iteration-count: infinite;
+}
+@keyframes alov {
+    0%{
+        box-shadow: 0 0 50px 1px limegreen;
+    }
+    25%{
+        box-shadow: 0 0 30px 1px limegreen;
+    }
+    50%{
+        box-shadow: 0 0 60px 1px limegreen;
+    }
+    75%{
+        box-shadow: 0 0 50px 1px limegreen;
+    }
+    100%{
+        box-shadow: 0 0 40px 1px limegreen;
+    }
+}

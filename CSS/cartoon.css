@@ -1,0 +1,40 @@
+.txt010:nth-child(6){
+    margin-left: 100px;
+}
+.txt010:nth-child(1){
+    color: white;
+    margin-left: 70px;
+}
+.txt010{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.block{
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.block1{
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.block2{
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.container{
+    background-color: rgba(45,45,49,0.59);
+    height: 500px;
+}
